@@ -21,6 +21,8 @@ class missing
                 System.out.println("The missing element is " + " " + i);
                 break;
             }
+            if(count>1)
+                System.out.println("The Duplictae element is "+" "+a[i]);
             count=0;
         }
     }
